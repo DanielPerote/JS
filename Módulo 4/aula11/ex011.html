@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Vejamos de você opertence ao brasil ou é estranjeiro</h1>
+    Digite o nome do seu país: <input type="text" name="ps" id="ps">
+    <button onclick="nac">Enviar</button>
+    <div id="res">
+        a
+    </div>
+
+    <script>
+        function nac() {
+            var pais = window.document.querySelector('input#ps')
+            var res = window.document.querySelector('div#res')
+            res.innerHTML = `Que legal você é do país ${pais}`
+            if (ps == 'Brasil')
+                res.innerHTML('Você é Brasileiro')
+        }
+        
+    </script>
+</body>
+</html>
