@@ -22,3 +22,16 @@ footer{
     text-align: center;
     font-style: italic;
 }
+img{
+    width: 250px;
+    height: 180px;
+}
+
+input#button{
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+input#button:hover{
+    background-color: rgb(175, 171, 171);
+}
