@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-size: 18px ;
+    background-color: blue;
+}
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.363);
+    width: 300px;
+    margin: auto;
+
+}
+
+input{
+    margin-bottom: 15px;
+}
+input#fim{
+    margin-left: 13px;
+}
+input#but{
+    background-color: rgb(212, 207, 207);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#but:hover{
+    background-color: rgb(194, 194, 194);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
