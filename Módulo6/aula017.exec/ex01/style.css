@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-size: 18px ;
+    background-color: blue;
+}
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.363);
+    width: 400px;
+    margin: auto;
+
+}
+
+input#num{
+    width: 100px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
