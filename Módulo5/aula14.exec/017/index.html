@@ -8,19 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>Contando Números</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            <p>
-                Início: <input type="number" name="ini" id="ini"> <br>
-                Fim: <input type="number" name="fim" id="fim"> <br>
-                Passo: <input type="number" name="pas" id="pas"> <br>
-                <input type="button" value="Contar" onclick="contar()">
-            </p>
+            <p>Número: <input type="number" name="num" id="num"> <input type="button" value="Contar" onclick="contar()"></p>
+            
         </div>
-        <div id="res">
-            Aqui vai aparecer o resultado...
+        <div>
+            <p>
+                <select name="sel" id="sel" size="10">
+                    <option>Contas</option>
+                </select>
+            </p>
         </div>
     </section>
     <footer>
